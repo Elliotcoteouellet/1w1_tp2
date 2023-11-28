@@ -1,0 +1,91 @@
+/************************* initialisation */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    box-sizing: border-box;
+}
+*,
+*::before,
+*:after {
+    box-sizing: inherit;
+}
+
+/* ------------------------------------------------------------------------------------------------------- */
+body {
+    display: flex;
+    /* On défini la direction de l'axe principal comme étant vertical */
+    flex-direction: column;
+    min-width: 100vw;
+}
+
+/* navigation principal */
+
+/* les conteneur div autour de chaque section */
+.global {
+   display: flex;
+   justify-content: center;
+  /* align-items: center; */
+   min-width: 100%;
+   border: 1px solid #aaa;
+   min-height: 100vh;
+}
+
+.global section,
+.global header,
+.global footer {
+    display: flex;
+    flex: 0 1 1000px;
+    border: 1px solid #aaa;
+    background-color: rgba(0, 0, 0, .1);
+}
+
+
+
+#entete {
+    background-color: rgb(203, 166, 102);
+    min-height: 1vh;
+    position: sticky;
+    top: 0;
+}
+#entete header {
+    justify-content: space-between;
+    align-items: center;
+    /* permet de définir le référenciel pour le menu */
+    position: relative;
+    
+}
+
+#menu {
+    background-color: rgb(201, 106, 106);
+}
+
+#accueil {
+    background-color: aquamarine;
+}
+
+#inscription {
+    background-color: rgb(255, 214, 127);
+}
+
+#tableau {
+    background-color: rgb(42, 165, 42);
+}
+
+#galerie {}
+
+#article {}
+
+#galerie {}
+
+#video {}
+
+#pieddepage {}
+
+h1 {}
+
+h2 {
+    margin-top: 10vh;
+}
