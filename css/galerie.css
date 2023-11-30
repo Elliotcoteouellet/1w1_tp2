@@ -1,0 +1,11 @@
+/* Conteneur principal*/
+.galerie{}
+
+/* conteneur d'images*/
+.galerie__figure{}
+
+/* images */
+.galerie__img{}
+
+/* figcaption */
+.galerie__caption{}
