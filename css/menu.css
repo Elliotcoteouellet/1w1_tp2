@@ -33,11 +33,15 @@
     display: none;
 }
 
+
 #burger {
-    position: relative;
+    position: absolute;
     margin-left: auto;
     width: 40px;
     margin-bottom: 30px;
+    top: 0;
+    right: 0;
+    z-index: 10;
 }
 
 #burger img {
@@ -61,11 +65,11 @@
     position: absolute;
     transform: translateY(-250%);
     transition: transform .50s;
-    width: 150px;
+    width: 250px;
     gap: 8px;
     padding: 25px;
     right: 0;
-    top: 100%;
+    top: 0;
 }
 
 .menu a {

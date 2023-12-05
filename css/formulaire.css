@@ -1,0 +1,35 @@
+/*  
+<form action="" class="formulaire">
+ <label class="ethiquette__nom" for="input__nom">NOM</label>
+ <input type="text" id="input__nom">
+ <label class="ethiquette__prenom" for="input__prenom">PRÉNOM</label>
+ <input type="text" id="input__prenom">
+ <label class="ethiquette__tel" for="input__tel">TÉLÉPHONE</label>
+ <input type="text" id="input__tel">
+ </form>
+       <fieldset class="form__chk">
+*/
+
+
+
+
+.formulaire {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.formulaire label {}
+
+.formulaire input [type="text"]{
+    width: 400px;
+}
+
+.form__chk{
+    display: flex;
+    gap: 20px;
+}
+
+.form__chk label{
+    padding-left: 25px;
+}

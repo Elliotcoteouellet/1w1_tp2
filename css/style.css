@@ -33,19 +33,22 @@ body {
    min-height: 100vh;
 }
 
+.global section{}
+
 .global section,
 .global header,
 .global footer {
     display: flex;
     flex: 0 1 1000px;
-    border: 1px solid #aaa;
+    /* border: 1px solid #aaa; */
     background-color: rgba(0, 0, 0, .1);
 }
 
 
 
 #entete {
-    background-color: rgb(203, 166, 102);
+   /* background-color: rgb(203, 166, 102); */
+    background-image:linear-gradient(90deg, #f00, #00f);
     min-height: 1vh;
     position: sticky;
     top: 0;
@@ -53,6 +56,7 @@ body {
 #entete header {
     justify-content: space-between;
     align-items: center;
+    gap: 10px;
     /* permet de définir le référenciel pour le menu */
     position: relative;
     
@@ -70,9 +74,7 @@ body {
     background-color: rgb(255, 214, 127);
 }
 
-#tableau {
-    background-color: rgb(42, 165, 42);
-}
+#tableau {}
 
 #galerie {}
 
@@ -82,9 +84,15 @@ body {
 
 #video {}
 
-#pieddepage {}
+h1 {
+    font-size: clamp(1.5rem, 1.0833rem, + 6.6667vw, 3.5rem);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
 
-h1 {}
+h2 {
+    font-size: clamp(1.75rem, 0.0833rem + 5.3333vw, 3.75rem);
+    margin-top: 10vh;
+}
 
 h2 {
     margin-top: 10vh;
