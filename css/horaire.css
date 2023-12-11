@@ -1,0 +1,58 @@
+
+
+body {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    min-width: 100vw;
+}
+
+table {
+    border: 2px solid #444;
+    border-collapse: collapse;
+}
+
+td, th {
+    border: 1px solid rgb(34, 33, 33);
+    font-size: 2rem;
+}
+
+th {
+    background-color: #aaa;
+}
+
+.cours1 {
+    background-color:blue;
+    font-style: ;
+}
+
+.cours2 {
+    background-color: rebeccapurple;
+    font-style: italic;
+}
+
+.cours3 {
+    background-color: red;
+    font-style: ;
+}
+
+.cours4 {
+    background-color: yellow;
+    font-style: ;
+}
+
+.cours5 {
+    background-color: orange;
+}
+
+.cours6 {
+    background-color: green;
+}
+
+.cours7 {
+    background-color: brown;
+}
+
+
