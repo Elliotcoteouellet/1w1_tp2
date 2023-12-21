@@ -16,7 +16,7 @@ table {
 
 td, th {
     border: 1px solid rgb(34, 33, 33);
-    font-size: 2rem;
+    font-size: 1rem;
 }
 
 th {
@@ -25,22 +25,18 @@ th {
 
 .cours1 {
     background-color:blue;
-    font-style: ;
 }
 
 .cours2 {
     background-color: rebeccapurple;
-    font-style: italic;
 }
 
 .cours3 {
     background-color: red;
-    font-style: ;
 }
 
 .cours4 {
     background-color: yellow;
-    font-style: ;
 }
 
 .cours5 {

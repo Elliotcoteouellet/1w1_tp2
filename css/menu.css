@@ -37,7 +37,7 @@
 
 #burger {
     position: absolute;
-    margin-left: auto;
+    margin-right: 45px;
     width: 40px;
     margin-bottom: 30px;
     top: 0;
@@ -75,4 +75,8 @@
 
 .menu a {
     color: #fff;
+}
+
+p {
+    font-size: 20px;
 }

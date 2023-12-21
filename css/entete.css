@@ -1,0 +1,12 @@
+#entete {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center 0;
+}
+
+img {
+    margin-right: 75px;
+    width: auto;
+    height: 98px;
+    border-radius: 10px;
+}

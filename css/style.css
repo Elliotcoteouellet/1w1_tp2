@@ -53,7 +53,7 @@ body {
 
 #entete {
    /* background-color: rgb(203, 166, 102); */
-    background-image:linear-gradient(90deg, #f00, #00f);
+    background-image:linear-gradient(90deg, rgb(218, 178, 114)rgb(198, 198, 215)7);
     min-height: 1vh;
     position: sticky;
     top: 0;
@@ -70,26 +70,36 @@ body {
 }
 
 #menu {
-    background-color: rgb(201, 106, 106);
+    background-image: linear-gradient(90deg, rgb(222, 155, 61),rgb(230, 61, 84));
 }
 
 #accueil {
-    background-color: aquamarine;
+    background-image:linear-gradient(90deg, rgb(222, 155, 61),rgb(230, 61, 84));
 }
 
 #inscription {
-    background-color: rgb(255, 214, 127);
+    background-image:linear-gradient(90deg, rgb(222, 155, 61),rgb(230, 61, 84));
 }
 
-#tableau {}
+#tableau {
+    background-image:linear-gradient(90deg, rgb(222, 155, 61),rgb(230, 61, 84));
+}
 
-#galerie {}
+#galerie {
+    background-image:linear-gradient(90deg, rgb(222, 155, 61),rgb(230, 61, 84));
+}
 
-#article {}
+#articles {
+    background-image:linear-gradient(90deg, rgb(222, 155, 61),rgb(230, 61, 84));
+}
 
-#galerie {}
+#galerie {
+    background-image:linear-gradient(90deg, rgb(222, 155, 61),rgb(230, 61, 84));
+}
 
-#video {}
+#video {
+    background-image:linear-gradient(90deg, rgb(222, 155, 61),rgb(230, 61, 84));
+}
 
 h1 {
     font-size: clamp(1.5rem, 1.0833rem, + 6.6667vw, 3.5rem);
